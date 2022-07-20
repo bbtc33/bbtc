@@ -1,15 +1,66 @@
-@media only screen and (max-width: 479px){
-	.glitch{font-size:2em !important;
-	}
+body{
+	background-color:#3c5879
 }
+.main{
+	background:#018982;
+	padding:1em;
+	border-radius:30px;
+	margin:auto;
+}
+h1{
+	color:#434343;
+	font-family:"Arial","sans-serif";
+	font-size:5em;
+	font-style: italic;
+}
+h2{
+	color:#434343;
+	font-size:1.5em;
+	font-family:"JetBrains Mono","monospace","sans-serif";
+}
+h3{
+	color:#434343;
+	font-size:1.25em;
+	font-family:"JetBrains Mono","monospace","sans-serif";
+}
+p{
+	color:#434343;
+	font-size:1em;
+	font-family:"JetBrains Mono","monospace","sans-serif";
+}
+li{
+
+	font-family:"JetBrains Mono","monospace","sans-serif";
+	float:left;
+}
+li a {
+ 	display: block;
+	color: #434343;
+	text-align: center;
+	padding: 1em 1em;
+	text-decoration:none;
+}
+li a:hover:not(.active) {
+background-color: #3B365C;
+}
+.active {
+background-color: #3B365C;
+color: #434343;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #018982;
+}
+
 .glitch{
 	color:#1e1e1e;
 	font-size: 5em;
 	margin: 0 auto;
-}
-
-.glitch{
 	position: relative;
+	font-weight:600;
 }
 
 .glitch:after {
@@ -21,7 +72,7 @@
       left: 2px;
       overflow: hidden;
       position: absolute;
-      text-shadow: -1px 0 red;
+      text-shadow: -1px 0 #0c8558;
       top: 0;
     }
 
@@ -169,55 +220,4 @@
       100% {
         clip: rect(38px, 9999px, 49px, 0);
       }
-}
-
-body{
-	background-color:#3c5879
-}
-h1{
-	color:#3B4248;
-	font-family:"Arial","sans-serif";
-	font-size:5em;
-	font-style: italic;
-}
-h2{
-	color:#1C2124
-	font-size:1.5em;
-	font-family:"JetBrains Mono","monospace","sans-serif";
-}
-h3{
-	color:#1C2124;
-	font-size:1.25em;
-	font-family:"JetBrains Mono","monospace","sans-serif";
-}
-p{
-	color:#1C2124;
-	font-size:1em;
-	font-family:"JetBrains Mono","monospace","sans-serif";
-}
-li{
-
-	font-family:"JetBrains Mono","monospace","sans-serif";
-	float:left;
-}
-li a {
- 	display: block;
-	color: #1C2124;
-	text-align: center;
-	padding: 1em 1em;
-	text-decoration:none;
-}
-li a:hover:not(.active) {
-background-color: #3B4248;
-}
-.active {
-background-color: #3B4248;
-color: #1C2124;
-}
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #1C2124;
 }
