@@ -6,6 +6,7 @@ body{
 	padding:3em;
 	border-radius:20px;
 	margin:0 auto;
+	width: 1000px;
 }
 h1{
 	color:#1E1E1E;
@@ -30,9 +31,11 @@ p{
 li{
 
 	font-family:"JetBrains Mono","monospace","sans-serif";
-	float:center;
-	padding: 1em;
-	border-radius:20px;
+	float:left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 0.2em;
+	padding-left:0.2em;
 }
 li a {
  	display: block;
@@ -40,6 +43,7 @@ li a {
 	text-align: center;
 	padding: 1em 1em;
 	text-decoration:none;
+	border-radius:20px;
 
 }
 li a:hover:not(.active) {
