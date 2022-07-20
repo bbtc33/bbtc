@@ -5,13 +5,12 @@ body{
 	background:#018982;
 	padding:3em;
 	border-radius:20px;
-	margin:auto;
+	margin:0 auto;
 }
 h1{
 	color:#1E1E1E;
 	font-family:"Arial","sans-serif";
 	font-size:5em;
-	font-style: italic;
 }
 h2{
 	color:#1E1E1E;
@@ -32,6 +31,8 @@ li{
 
 	font-family:"JetBrains Mono","monospace","sans-serif";
 	float:center;
+	padding: 1em;
+	border-radius:20px;
 }
 li a {
  	display: block;
@@ -42,10 +43,10 @@ li a {
 
 }
 li a:hover:not(.active) {
-background-color: #3C5879;
+background-color: #018982;
 }
 .active {
-background-color: #3C5879;
+background-color: #018982;
 color: #1E1E1E;
 }
 ul {
@@ -53,7 +54,6 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #018982;
 }
 
 .glitch{
