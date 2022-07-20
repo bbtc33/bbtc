@@ -3,49 +3,50 @@ body{
 }
 .main{
 	background:#018982;
-	padding:1em;
-	border-radius:30px;
+	padding:3em;
+	border-radius:20px;
 	margin:auto;
 }
 h1{
-	color:#434343;
+	color:#1E1E1E;
 	font-family:"Arial","sans-serif";
 	font-size:5em;
 	font-style: italic;
 }
 h2{
-	color:#434343;
+	color:#1E1E1E;
 	font-size:1.5em;
 	font-family:"JetBrains Mono","monospace","sans-serif";
 }
 h3{
-	color:#434343;
+	color:#1E1E1E;
 	font-size:1.25em;
 	font-family:"JetBrains Mono","monospace","sans-serif";
 }
 p{
-	color:#434343;
+	color:#1E1E1E;
 	font-size:1em;
 	font-family:"JetBrains Mono","monospace","sans-serif";
 }
 li{
 
 	font-family:"JetBrains Mono","monospace","sans-serif";
-	float:left;
+	float:center;
 }
 li a {
  	display: block;
-	color: #434343;
+	color: #1E1E1E;
 	text-align: center;
 	padding: 1em 1em;
 	text-decoration:none;
+
 }
 li a:hover:not(.active) {
-background-color: #3B365C;
+background-color: #3C5879;
 }
 .active {
-background-color: #3B365C;
-color: #434343;
+background-color: #3C5879;
+color: #1E1E1E;
 }
 ul {
 list-style-type: none;
