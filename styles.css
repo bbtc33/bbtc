@@ -1,24 +1,24 @@
 body{
-	background-color:#000000
+	background-color:#9B9481
 }
 h1{
-	color:#ca0dbe;
+	color:#3B4248;
 	font-family:"Arial","sans-serif";
 	font-size:5em;
 	font-style: italic;
 }
 h2{
-	color:#ca0dbe;
+	color:#1C2124
 	font-size:1.5em;
 	font-family:"JetBrains Mono","monospace","sans-serif";
 }
 h3{
-	color:#ca0dbe;
+	color:#1C2124;
 	font-size:1.25em;
 	font-family:"JetBrains Mono","monospace","sans-serif";
 }
 p{
-	color:#EEEEEE;
+	color:#1C2124;
 	font-size:1em;
 	font-family:"JetBrains Mono","monospace","sans-serif";
 }
@@ -29,23 +29,22 @@ li{
 }
 li a {
  	display: block;
-	color: #EEEEEE;
+	color: #1C2124;
 	text-align: center;
 	padding: 1em 1em;
 	text-decoration:none;
 }
 li a:hover:not(.active) {
-background-color: #6626a5;
+background-color: #3B4248;
 }
 .active {
-background-color: #ca0dbe;
-color: #ffffff;
+background-color: #3B4248;
+color: #1C2124;
 }
 ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #000000;
+background-color: #1C2124;
 }
-
