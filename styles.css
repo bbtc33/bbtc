@@ -1,8 +1,8 @@
 body{
-	background-color:#3c5879
+	background-color:#e7dcbc
 }
 .main{
-	background:#018982;
+	background:#e7dcbc;
 	padding:3em;
 	border-radius:20px;
 	margin:0 auto;
@@ -31,6 +31,7 @@ p{
 li{
 
 	font-family:"JetBrains Mono","monospace","sans-serif";
+	font-weight: "bold";
 	float:left;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -47,10 +48,10 @@ li a {
 
 }
 li a:hover:not(.active) {
-background-color: #018982;
+background-color: #eeeeee;
 }
 .active {
-background-color: #018982;
+background-color: #eeeeee;
 color: #1E1E1E;
 }
 ul {
@@ -71,7 +72,7 @@ width: 800px;
 
 .glitch:after {
       animation: glitch-animation 2s infinite linear alternate-reverse;
-      background: #3c5879;
+      background: #e7dcbc;
       clip: rect( 0, 900px, 0, 0 );
       color: #1e1e1e;
       content: attr( data-text );
@@ -84,7 +85,7 @@ width: 800px;
 
 .glitch:before {
       animation: glitch-animation-2 3s infinite linear alternate-reverse;
-      background: #3c5879;
+      background: #e7dcbc;
       clip: rect( 0, 900px, 0, 0 );
       color: #1e1e1e;
       content: attr( data-text );
