@@ -3,15 +3,15 @@ body{
 }
 .main{
 	background:#e7dcbc;
-	padding:3em;
+	padding:10em;
 	border-radius:20px;
-	margin:0 auto;
-	width: 700px;
+	margin:5 auto;
+	width: 800px;
 }
 h1{
 	color:#1E1E1E;
 	font-family:"Arial","sans-serif";
-	font-size:5em;
+	font-size:4em;
 }
 h2{
 	color:#1E1E1E;
@@ -25,20 +25,35 @@ h3{
 }
 p{
 	color:#1E1E1E;
-	font-size:1em;
+	font-size:1.25em;
 	font-family:"JetBrains Mono","monospace","sans-serif";
 }
-li{
+ul {
+	font-weight:bold;
+}
+li {
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	font-size:1.25em;
+}
+ul.title {
 
 	font-family:"JetBrains Mono","monospace","sans-serif";
-	font-weight: "bold";
+	font-weight:bold;
+	float:left;
+	padding-top: 0em;
+	padding-bottom: 1em;
+	padding-right: 0.2em;
+	padding-left:0.2em;
+}
+li.title {
 	float:left;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: 0.2em;
 	padding-left:0.2em;
 }
-li a {
+li a.title {
  	display: block;
 	color: #1E1E1E;
 	text-align: center;
@@ -47,24 +62,24 @@ li a {
 	border-radius:20px;
 
 }
-li a:hover:not(.active) {
+li a:hover:not(.active).title {
 background-color: #eeeeee;
 }
-.active {
+.active.title {
 background-color: #eeeeee;
 color: #1E1E1E;
 }
-ul {
-list-style-type: none;
-margin: 0 auto;
-padding: 0;
-overflow: hidden;
-width: 800px;
+
+ul{
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
 }
 
 .glitch{
 	color:#1e1e1e;
-	font-size: 5em;
+	font-size: 6em;
 	margin: 0 auto;
 	position: relative;
 	font-weight:600;
