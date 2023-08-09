@@ -3,10 +3,14 @@ body{
 }
 .main{
 	background:#e7dcbc;
-	padding:10em;
+	padding:1em;
 	border-radius:20px;
-	margin:5 auto;
-	width: 800px;
+	width: 1000px;
+}
+.wrap{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
 }
 h1{
 	color:#1E1E1E;
@@ -27,9 +31,7 @@ p{
 	color:#1E1E1E;
 	font-size:1.25em;
 	font-family:"JetBrains Mono","monospace","sans-serif";
-}
-ul {
-	font-weight:bold;
+	line-height:1.5;
 }
 li {
 	padding-top:0.5em;
@@ -37,24 +39,25 @@ li {
 	font-size:1.25em;
 }
 ul.title {
-
+	display:flex;
+	flex-direction:row;
 	font-family:"JetBrains Mono","monospace","sans-serif";
 	font-weight:bold;
 	float:left;
+	overflow:hidden;
+	white-space:nowrap;
 	padding-top: 0em;
-	padding-bottom: 1em;
 	padding-right: 0.2em;
 	padding-left:0.2em;
 }
 li.title {
-	float:left;
+	display:inline-block;
 	padding-top: 1em;
-	padding-bottom: 1em;
 	padding-right: 0.2em;
 	padding-left:0.2em;
 }
 li a.title {
- 	display: block;
+ 	display: inline-block;
 	color: #1E1E1E;
 	text-align: center;
 	padding: 1em 1em;
@@ -72,9 +75,9 @@ color: #1E1E1E;
 
 ul{
 	list-style-type: none;
-	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
+	font-weight: bold;
 }
 
 .glitch{
@@ -108,7 +111,7 @@ ul{
       overflow: hidden;
       position: absolute;
       text-shadow: 1px 0 blue;
-      top: 0;
+      top: 0;	
     }
 
     /* Expanded Animations */
